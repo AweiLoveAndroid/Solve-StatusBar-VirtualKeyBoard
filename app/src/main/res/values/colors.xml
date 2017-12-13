@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1370c0</color>
+    <color name="colorPrimaryDark">#1370c0</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorDivison">#33aaaaaa</color>
+
+    <color name="shouye_line">#dcdcdc</color>
+
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#fff4511e</color>
+
+
+</resources>

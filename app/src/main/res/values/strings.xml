@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">StatusBarVirtualKey</string>
+
+	<string name="hidden_text">hiddenText</string>
+
+</resources>

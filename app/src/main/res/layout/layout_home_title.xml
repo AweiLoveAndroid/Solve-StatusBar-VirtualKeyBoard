@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layer_list_bottom_line"
+    android:clipToPadding="true"
+    android:elevation="@dimen/primary_shadow_height"
+    android:fitsSystemWindows="true"
+    android:padding="@dimen/titleBarPadding"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/home_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/icon_back"
+            android:drawablePadding="5dp"
+            android:padding="@dimen/dp_4"
+            tools:text="@string/hidden_text"/>
+
+
+        <TextView
+            tools:text="@string/hidden_text"
+            android:id="@+id/home_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxEms="5"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="7.0sp"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
