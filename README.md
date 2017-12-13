@@ -2,7 +2,7 @@
 
 ----
 
-## **[解决华为手机沉浸式状态栏和虚拟键盘冲突问题]()**
+## **[解决华为手机沉浸式状态栏和虚拟键盘冲突问题(具体的请点击这里)](https://github.com/AweiLoveAndroid/Solve-StatusBar-VirtualKeyBoard/blob/master/app/src/main/java/com/lzw/demo/MainActivity.java)**
 
 Activity里面的重点操作，这里介绍只贴重点代码，onCreate方法：
 
